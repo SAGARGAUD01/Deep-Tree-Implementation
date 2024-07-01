@@ -6,10 +6,15 @@ Welcome to the Deep Tree Project! This project is a comprehensive full-stack app
 
 ## ✨ Features
 ● Next.js Frontend: Efficiently renders and manages a tree structure with a depth of 10,000 nodes.
+
 ● NestJS Backend: Robust backend for handling tree data storage and user management.
+
 ● User Authentication: user authentication system.
+
 ● Tree Manipulation: Interactive UI for manipulating tree nodes.
+
 ● State Management: Efficient state management using React context or Redux.
+
 ● Performance Optimizations: Techniques like lazy loading and memoization to handle large datasets.
 
 ## 📂 Project Structure
