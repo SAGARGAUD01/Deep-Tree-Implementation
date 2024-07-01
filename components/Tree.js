@@ -11,6 +11,11 @@ const Tree = ({ nodes }) => {
           <div key={index} style={{ marginLeft: 20 }}>
             {renderTree(child)}
           </div>
+            <div>
+      {treeData.map((node) => (
+        <TreeNode key={node.id} node={node} onNodeUpdate={updateNode} />
+      ))}
+    </div>
         ))}
       </div>
     );
