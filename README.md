@@ -1,10 +1,10 @@
 🌳 Deep Tree Project
 Welcome to the Deep Tree Project! This project is a comprehensive full-stack application that demonstrates the capabilities of managing and visualizing a deeply nested tree structure using Next.js for the frontend and NestJS for the backend.
 
-#more about me :-
+## more about me :-
 ✈️ [Follow Sagar Gaud](https://www.linkedin.com/in/sagargaud332/)
 
-✨ Features
+## ✨ Features
 ● Next.js Frontend: Efficiently renders and manages a tree structure with a depth of 10,000 nodes.
 ● NestJS Backend: Robust backend for handling tree data storage and user management.
 ● User Authentication: user authentication system.
@@ -12,8 +12,10 @@ Welcome to the Deep Tree Project! This project is a comprehensive full-stack app
 ● State Management: Efficient state management using React context or Redux.
 ● Performance Optimizations: Techniques like lazy loading and memoization to handle large datasets.
 
-##📂 Project Structure
+## 📂 Project Structure
 deep-tree/
+
+```sh
 ├── components/
 
 │   ├── Tree.js
@@ -59,33 +61,56 @@ deep-tree/
 ├── next.config.js
 
 └── README.md
-
+```
 
 🚀 Getting Started
-##Frontend Setup (Next.js)
+## Frontend Setup (Next.js)
 
-#Navigate to the deep-tree directory:
-<cd deep-tree>
+## Navigate to the deep-tree directory:
 
-#Install dependencies:
-<npm install>
+```sh
+cd deep-tree
+```
 
-Start the development server:
-<npm run dev>
+## Install dependencies:
 
-#Build for production:
-<npm run build>
+```sh
+npm install
+```
 
-#Start the production server:
-<npm run start>
+## Start the development server:
 
-#Backend Setup (NestJS)
-#Navigate to the backend directory:
-<cd backend>
+```sh
+npm run dev
+```
 
-#Install dependencies:
-<npm install>
+## Build for production:
 
-#Make sure MongoDB is running on your machine.
-#Start the development server:
-<npm run start:dev>
+```sh
+npm run build
+```
+
+##  Start the production server:
+```sh
+npm run start
+```
+
+## Backend Setup (NestJS)
+## Navigate to the backend directory:
+
+```sh
+cd backend
+```
+
+## Install dependencies:
+
+```sh
+npm install
+```
+
+## Make sure MongoDB is running on your machine.
+## Start the development server:
+
+```sh
+npm run start:dev
+```
