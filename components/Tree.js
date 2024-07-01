@@ -11,6 +11,7 @@ const Tree = ({ nodes }) => {
           <div key={index} style={{ marginLeft: 20 }}>
             {renderTree(child)}
           </div>
+    //UI Enhancement - Adding Animation in Tree.js
             <div>
       {treeData.map((node) => (
         <TreeNode key={node.id} node={node} onNodeUpdate={updateNode} />
